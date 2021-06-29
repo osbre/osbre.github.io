@@ -1,12 +1,21 @@
 ---
 layout: page
-title:  "Welcome to Jekyll!"
+title:  "Automating Makerlog with Apple Shortcuts"
 date:   2021-06-30 01:45:51 +0300
-categories: jekyll update
+# categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Prologue
 
-Jekyll requires blog post files to be named according to the following format:
+I really like logging my daily tasks and keeping up with streaks.
+
+But doing it from phone takes some efforts. By saying "efforts" I mean going throught the mess of visual actions - like opening the browser and searching for the website, then navigating it to find the right fields and so on...
+
+So one day I thought:
+
+> Can I have one icon on my home screen just for logging tasks? 
+
+## Realization
+
 
 `YEAR-MONTH-DAY-title.MARKUP`
 
@@ -27,3 +36,4 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+  
