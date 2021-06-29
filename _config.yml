@@ -32,6 +32,7 @@ social:
 
 # Build settings
 theme: jekyll-theme-persephone
+remote_theme: erlzhang/jekyll-theme-persephone
 plugins:
   - jekyll-feed
 
