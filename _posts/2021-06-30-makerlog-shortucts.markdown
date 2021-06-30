@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Automating Makerlog with Apple Shortcuts"
-date:   2021-06-30 06:56:51 +0300
+date:   2021-06-30
 # categories: jekyll update
 ---
 ## Introduction
