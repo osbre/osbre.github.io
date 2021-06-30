@@ -16,24 +16,20 @@ So one day I thought:
 
 ## Realization
 
+In the next few steps I\'ll show you how you can make your own \"Makerlog\" shortcut, and place it on a home screen.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+#### Step 1. Make a webhook
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Makerlog has a nice [webhooks](https://getmakerlog.com/integrations/webhooks) feature.
 
-Jekyll also offers powerful support for code snippets:
+What it basically does, it creates a special URL that you can use to post your tasks using the HTTP protocol. Let\'s make one:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+1. Open [this URL](https://getmakerlog.com/integrations/webhooks) or click on the `Profile picture -> Integrations -> Webhooks`
+2. Click on the *\"Create webhook\"* button
+3. You\'ll see a generated URL, similar to the one shown below. Copy it.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+![view after webhook was created](/images/makerlog-webhook-creation.png)
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-  
+#### Step 2. Make a shortcut
+
+1. Open to the [shortcuts app](https://apps.apple.com/us/app/shortcuts/id915249334) and click on the \"plus\" button
