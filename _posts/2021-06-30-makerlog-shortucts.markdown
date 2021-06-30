@@ -4,6 +4,11 @@ title:  "Automating Makerlog with Apple Shortcuts"
 date:   2021-06-30
 # categories: jekyll update
 ---
+
+1. [Introduction](#introduction)
+1. [Implementation](#implementation)
+1. [Demo](#demo-screenshots)
+
 ## Introduction
 
 I really like logging my daily tasks and keeping up with streaks.
