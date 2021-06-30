@@ -2,7 +2,6 @@
 layout: page
 title:  "Automating Makerlog with Apple Shortcuts"
 date:   2021-06-30
-# categories: jekyll update
 ---
 
 1. [Introduction](#introduction)
@@ -11,9 +10,7 @@ date:   2021-06-30
 
 ## Introduction
 
-I really like logging my daily tasks and keeping up with streaks.
-
-But doing it from phone takes some efforts. By saying "efforts" I mean going throught the mess of visual actions - like opening the browser and searching for the website, then navigating it to find the right fields and so on...
+I like logging my daily tasks and keeping up with streaks, but doing it from the phone takes some effort. By saying "effort" I mean going through the mess of visual actions each time you want to log a task. 
 
 So one day I thought:
 
@@ -21,7 +18,7 @@ So one day I thought:
 
 ## Implementation
 
-In the next few steps I\'ll show you how you can make your own \"Makerlog\" shortcut, and place it on a home screen.
+In the next few steps I\'ll show you how you can make your own \"Makerlog\" shortcut, and place it on a home screen as an icon.
 
 #### Step 1. Make a webhook
 
@@ -52,7 +49,7 @@ Open to the [shortcuts app](https://apps.apple.com/us/app/shortcuts/id915249334)
 ![makerlog shortcut "Get Contents of URL" action](/images/makerlog-automation-content.png)
 
 
-#### Step 3. Add shortcut to the homescreen
+#### Step 3. Add shortcut to the home screen
 
 Tap on the "Three dots" and choose `Add to Home Screen`.
 
